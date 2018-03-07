@@ -18,6 +18,7 @@ public class Sembrador {
             Mina unamina=new Mina();
             laCelda.setmimina(unamina);
             
+                        
             
         }
         
@@ -28,7 +29,33 @@ public class Sembrador {
         
     }
     
+    void cantidadmina(int matriz[][]){
+       int fila = 0,columna = 0,contador;
+       contador=0;
+       for(int x=-1;x<2;x++){
+        for(int y=-1;y<2;y++){
+            if(Celdas[fila+x][columna+y].getMina()!=null)
+                
+                contador++;
+
+          
+                
+            }
+        }
+       }
+    }
+
+
+  
+
+             
+
+       
     
     
     
-}
+    
+    
+
+       
+    

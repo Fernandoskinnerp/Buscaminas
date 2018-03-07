@@ -16,4 +16,8 @@ private
   private  boolean estado;
   private  int minasalrededor;
 
+    void setmimina(Mina unamina) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

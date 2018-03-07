@@ -16,6 +16,10 @@ public class Tablero {
     Contador micontador;
     Emoji miemoji;
 
+    Tablero(int i, int i0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public Celda[][] getMicelda() {
         return micelda;
     }
@@ -58,7 +62,7 @@ public class Tablero {
     
     
 
-    public Tablero(int ancho, int largo) {
+    public Tablero(int ancho, int largo, Celda[][] misCeldas) {
 
         misCeldas=new Celda[ancho][largo];
 
@@ -73,9 +77,17 @@ public class Tablero {
 
     }
     
-    Sembrador misembrador=new Sembrador();
-    
-    misembrador.sembrarMina(misCeldas,50);
+    Sembrador misembrador=new Sembrador();{
+         
+               
+                         
+    misembrador.sembrarMina(misCeldas,50)
+            
+}
+}
+
+
+
     
 
-}
+
